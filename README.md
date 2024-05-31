@@ -90,7 +90,7 @@ The data files include:
 
 ### VIII. Notebook Structure
 
-**EDA.ipynb-** Perform exploratory data analysis (EDA) to understand the data distribution, identify trends, and detect anomalies or outliers.
+**1. EDA.ipynb-** Perform exploratory data analysis (EDA) to understand the data distribution, identify trends, and detect anomalies or outliers.
 
 Contents:
 
@@ -100,7 +100,7 @@ Contents:
 - Identify and handle missing values and outliers.
 - Summary of insights gained from the EDA.
 
-**model_development.ipynb-** Develop and train machine learning models to predict Home Depot's quarterly revenue.
+**2. model_development.ipynb-** Develop and train machine learning models to predict Home Depot's quarterly revenue.
 
 Contents:
 
@@ -111,7 +111,7 @@ Contents:
 - Evaluate model performance using cross-validation and metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 - Select the best-performing model based on validation metrics.
 
-**results_analysis.ipyn-** Analyze and interpret the results of the best-performing model.
+**3. results_analysis.ipyn-** Analyze and interpret the results of the best-performing model.
 
 Contents:
 
