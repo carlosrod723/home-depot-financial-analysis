@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+jupyter
+tensorflow
+keras
+statsmodels
+requests
+scipy
+datetime
+yfinance
+plotly
