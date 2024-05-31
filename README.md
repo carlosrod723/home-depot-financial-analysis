@@ -111,7 +111,7 @@ Contents:
 - Evaluate model performance using cross-validation and metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 - Select the best-performing model based on validation metrics.
 
-**3. results_analysis.ipyn-** Analyze and interpret the results of the best-performing model.
+**3. results_analysis.ipynb-** Analyze and interpret the results of the best-performing model.
 
 Contents:
 
