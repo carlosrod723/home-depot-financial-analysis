@@ -1,22 +1,22 @@
 # Home Depot Financial Analysis
 
-### Overview of Home Depot
+### I. Overview of Home Depot
 
 Home Depot, Inc. is the largest home improvement retailer in the United States, offering a wide range of products and services for home improvement, construction, and repair. Founded in 1978, Home Depot operates over 2,200 stores across North America, providing products in categories such as building materials, lawn and garden, décor, and electrical supplies. The company has built a strong brand presence and customer loyalty through its extensive product offerings, competitive pricing, and excellent customer service. Home Depot also focuses on professional customers, including contractors and builders, through its Pro Desk and bulk pricing programs.
 
-### Financial Context
+### II. Financial Context
 
 Home Depot's financial performance is a key indicator of its market position and operational efficiency. The company generates revenue through retail sales in its stores and online platforms. It also offers installation services and tool rentals. Home Depot's financial health is influenced by various factors, including consumer spending, housing market trends, and seasonal demand fluctuations. The company's ability to manage its inventory, optimize supply chain operations, and maintain cost control are critical to sustaining its profitability and growth.
 
-### Business Scenario- Predicting Quarterly Revenue
+### III. Business Scenario- Predicting Quarterly Revenue
 
 In the competitive retail landscape, accurate revenue forecasting is crucial for strategic planning and resource allocation. For Home Depot, predicting quarterly revenue can help optimize inventory levels, manage staffing, and plan marketing campaigns effectively. Traditional financial analysis provides insights into past performance, but integrating machine learning models can enhance predictive accuracy and provide forward-looking insights.
 
-### Objective
+### IV. Objective
 
 The objective of this project is to develop a machine learning model to predict Home Depot's quarterly revenue based on historical financial data and relevant economic indicators. This predictive model will assist Home Depot in making data-driven decisions, improving operational efficiency, and maximizing profitability.
 
-### Model Selection
+### V. Model Selection
 
 To achieve this objective, I will consider several machine learning models and evaluate their performance to select the best-fit model for predicting quarterly revenue. The models I will consider include:
 
@@ -40,7 +40,7 @@ Suitable for initial baseline predictions.
 - A type of recurrent neural network (RNN) that is well-suited for time series forecasting.
 - Can capture temporal dependencies and trends in the data over multiple time periods.
 
-### Steps to Develop the Models
+### VI. Steps to Develop the Models
 
 **1. Data Collection and Preprocessing:**
 
@@ -75,3 +75,15 @@ Suitable for initial baseline predictions.
 
 
 I will use Python in Jupyter Notebooks to perform all the data preprocessing, exploratory data analysis (EDA), feature engineering, model development, and evaluation processes. This interactive environment allows for clear documentation and visualization of each step, ensuring that the analysis is reproducible and transparent. By leveraging the power of Python and Jupyter Notebooks, I can efficiently manage the end-to-end workflow of the financial analysis and machine learning model development.
+
+### VII. Data & Data Extraction Process
+
+The `data/` directory contains the CSV files extracted from Home Depot's 10-K reports. These files include key financial statements and other relevant data used for analysis and model development.
+
+The data files include:
+
+- **CONSOLIDATED_BALANCE_SHEETS.csv**: Contains the consolidated balance sheets data.
+- **CONSOLIDATED_STATEMENTS_OF_EARNINGS.csv**: Contains the consolidated statements of earnings data.
+- **CONSOLIDATED_STATEMENTS_OF_CASH_FLOWS.csv**: Contains the consolidated statements of cash flows data.
+
+**Data Source-** The data was extracted from Home Depot's 10-K filings available on the SEC's EDGAR database. The relevant financial statements were downloaded as an Excel file, which was then then imported into a Jupyter Notebook for the financial analysis. 
