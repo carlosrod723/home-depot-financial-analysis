@@ -87,3 +87,37 @@ The data files include:
 - **CONSOLIDATED_STATEMENTS_OF_CASH_FLOWS.csv**: Contains the consolidated statements of cash flows data.
 
 **Data Source-** The data was extracted from Home Depot's 10-K filings available on the SEC's EDGAR database. The relevant financial statements were downloaded as an Excel file, which was then then imported into a Jupyter Notebook for the financial analysis. 
+
+### VIII. Notebook Structure
+
+**EDA.ipynb-** Perform exploratory data analysis (EDA) to understand the data distribution, identify trends, and detect anomalies or outliers.
+
+Contents:
+
+- Load and preview the data.
+- Visualize key financial metrics (e.g., revenue, expenses).
+- Analyze relationships between different variables.
+- Identify and handle missing values and outliers.
+- Summary of insights gained from the EDA.
+
+**model_development.ipynb-** Develop and train machine learning models to predict Home Depot's quarterly revenue.
+
+Contents:
+
+- Data preprocessing (e.g., feature scaling, encoding categorical variables).
+- Feature engineering (e.g., creating lagged variables, growth rates).
+- Split the data into training and testing sets.
+- Train multiple machine learning models (e.g., Linear Regression, Random Forest, Gradient Boosting, LSTM).
+- Evaluate model performance using cross-validation and metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+- Select the best-performing model based on validation metrics.
+
+**results_analysis.ipyn-** Analyze and interpret the results of the best-performing model.
+
+Contents:
+
+- Load the trained model and test data.
+- Make predictions on the test data.
+- Visualize and interpret the model’s predictions.
+- Compare predicted revenue with actual revenue.
+- Discuss the implications of the findings and potential business insights.
+- Recommendations for Home Depot based on the analysis.
