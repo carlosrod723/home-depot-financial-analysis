@@ -80,24 +80,11 @@ I will use Python in Google Colab notebooks to perform all the data preprocessin
 
 The `data/` directory contains the CSV files extracted from Home Depot's 10-K reports. These files include key financial statements and other relevant data used for analysis and model development.
 
-Summary of key files for financial analysis:
+Summary of the key files for financial analysis:
 
-- CONSOLIDATED_BALANCE_SHEETS.csv
-- CONSOLIDATED_STATEMENTS_OF_EARNINGS.csv
-- CONSOLIDATED_STATEMENTS_OF_CASH.csv
-- STOCKHOLDERS' EQUITY.csv
-- SUMMARY_OF_SIGNIFICANT_ACCOUNTI.csv (and related files)
-- SEGMENT_REPORTING_AND_NET_SALES.csv (and related files)
-- PROPERTY_AND_LEASES.csv (and related files)
-- GOODWILL_AND_INTANGIBLE_ASSETS.csv (and related files)
-- DEBT_AND_DERIVATIVE_INSTRUMENTS.csv (and related files)
-- INCOME_TAXES.csv (and related files)
-- FAIR_VALUE_MEASUREMENTS.csv (and related files)
-- STOCK-BASED_COMPENSATION.csv (and related files)
-- EMPLOYEE_BENEFIT_PLANS.csv (and related files)
-- WEIGHTED_AVERAGE_COMMON_SHARES.csv (and related files)
-- COMMITMENTS_AND_CONTINGENCIES.csv (and related files)
-- ACQUISITIONS.csv (and related files)
+- CONSOLIDATED BALANCE SHEETS.csv
+- CONSOLIDATED STATEMENTS OF EARN.csv
+- CONSOLIDATED STATEMENTS OF CASH.csv
 
 **Data Source-** The data was extracted from Home Depot's 10-K filings available on the SEC's EDGAR database. The relevant financial statements were downloaded as an Excel file, which was then then imported into a Jupyter Notebook for the financial analysis. 
 
