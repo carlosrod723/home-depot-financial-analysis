@@ -44,7 +44,7 @@ The performance of the Linear Regression model was evaluated using the following
   
 The performance of the Linear Regression model was evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). The MAE of 17098.37 represents the average absolute difference between the predicted and actual values of Net Sales, indicating the typical prediction error in millions of dollars. The RMSE of 17306.38 measures the square root of the average squared differences between predicted and actual values, providing a measure of the model's prediction accuracy with a greater emphasis on larger errors. In the context of our project, these metrics reflect the model's effectiveness in predicting Home Depot's quarterly revenue, with lower values indicating better predictive performance and closer alignment with actual sales figures.
 
-#### f) Interpretation
+### III. Interpretation
 
 The model provides the following insights:
 
@@ -61,7 +61,7 @@ The coefficient for Net Sales Lag 1 is 0.27, indicating that for each unit incre
 
 Similarly, the coefficient for Net Sales Lag 2 is 0.26, suggesting that sales from two quarters ago positively affect the current quarter’s sales, albeit slightly less than the immediate previous quarter. The coefficient for Net Sales Growth 2 is 1008.08, indicating a substantial impact of the growth in sales from two quarters ago on the current quarter’s sales, emphasizing that past growth trends play a critical role in determining current sales performance. Overall, these coefficients provide valuable insights into how
 
- #### g) Conlcusion
+ ### IV. Conlcusion
  
 The Linear Regression model was selected due to its superior performance metrics compared to other models. It effectively captures the relationships between the features and the target variable, providing accurate predictions for Home Depot's quarterly revenue.
 
