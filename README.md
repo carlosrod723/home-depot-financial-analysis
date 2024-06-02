@@ -121,3 +121,36 @@ Contents:
 - Compare predicted revenue with actual revenue.
 - Discuss the implications of the findings and potential business insights.
 - Recommendations for Home Depot based on the analysis.
+
+### IX- Model Development
+
+A variety of models were developed and tested to identify the best-performing model. Detailed analyses of these models can be found in the respective markdown files:
+
+- [Linear Regression Analysis](./Linear_Regression_Analysis.md)
+- [Random Forest Analysis](./Random_Forest_Analysis.md)
+- [XGBoost Analysis](./XGBoost_Analysis.md)
+- [LSTM Analysis](./LSTM_Analysis.md)
+
+### X- Best Model
+
+Based on the performance metrics, the Linear Regression model was selected as the best model. Below are the details of its performance and interpretation.
+
+- **Mean Absolute Error (MAE)**: 17098.37
+- **Root Mean Squared Error (RMSE)**: 17306.38
+
+- **Intercept**: 1748.36
+- **Coefficients**:
+  - Net Sales Lag 1: 0.27
+  - Net Sales Growth: 25.69
+  - Net Sales Lag 2: 0.26
+  - Net Sales Growth 2: 1008.08
+
+The Linear Regression model provides accurate predictions for Home Depot's quarterly revenue, aiding in data-driven decision-making to improve operational efficiency and maximize profitability.
+
+### XI- Conclusion
+
+This project successfully identified and developed a predictive model for Home Depot's quarterly revenue. After extensive analysis and comparison of various models, including Linear Regression, Random Forest, XGBoost, and LSTM, the Linear Regression model was selected for its superior performance and interpretability. The model achieved a Mean Absolute Error (MAE) of 17098.37 and a Root Mean Squared Error (RMSE) of 17306.38, indicating its effectiveness in predicting revenue with reasonable accuracy.
+
+The use of multiple data preprocessing techniques, feature engineering, and hyperparameter tuning ensured that the models were optimized for the best performance. While the LSTM model demonstrated the ability to capture temporal dependencies in the data, its higher error metrics indicated that it was less suitable for this specific task compared to the Linear Regression model.
+
+In conclusion, the Linear Regression model provides a robust and interpretable solution for forecasting Home Depot's quarterly revenue, assisting the company in making data-driven decisions, improving operational efficiency, and maximizing profitability. This project's methodology and findings contribute valuable insights into the application of machine learning models in financial forecasting, showcasing the potential for predictive analytics in the retail industry.
