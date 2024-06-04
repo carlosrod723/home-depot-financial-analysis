@@ -68,14 +68,6 @@ Suitable for initial baseline predictions.
 - Compare the performance of different models and select the best-performing model based on validation metrics.
 - Ensure the selected model generalizes well to unseen data.
 
-**6. Deployment and Monitoring:**
-
-- Deploy the selected model and integrate it into Home Depot's decision-making process.
-- Continuously monitor model performance and update the model as needed to ensure its accuracy and relevance.
-
-
-I will use Python in Google Colab notebooks to perform all the data preprocessing, exploratory data analysis (EDA), feature engineering, model development, and evaluation processes. This interactive environment allows for clear documentation and visualization of each step, ensuring that the analysis is reproducible and transparent. By leveraging the power of Python and the Google Colab Notebooks, I can efficiently manage the end-to-end workflow of the financial analysis and machine learning model development.
-
 ### VII. Data & Data Extraction Process
 
 The `data/` directory contains the CSV files extracted from Home Depot's 10-K reports. These files include key financial statements and other relevant data used for analysis and model development.
